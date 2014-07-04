@@ -1,0 +1,427 @@
+/*
+	Design by Free CSS Templates
+	http://www.freecsstemplates.org
+	Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+/* Basic */
+
+*
+{
+	margin: 0em;
+	padding: 0em;
+}
+
+h1,h2
+{
+	margin-bottom:.5em;
+}
+
+body
+{
+	font-family: Arial, sans-serif;
+	font-size: 10pt;
+	color: #666;
+	background-color: #fff;
+}
+
+a
+{
+	color: #0077dd;
+	text-decoration: underline;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+/* Form Elements */
+form
+{
+/*  	margin-top:1.5em; */
+}
+
+.fieldcontain, .fieldcontain required {
+    margin-bottom: 1em;
+}
+/* Outer */
+
+#outer
+{
+	position:relative;
+	padding: 0em;
+	margin: auto;
+	width:100em;
+	
+}
+
+/* Logo */
+
+.logo{
+	width : 30em;
+	margin: 1.25em;
+}
+
+/* Header */
+
+#header
+{
+	position: relative;
+	background: #303031;
+	height: 10em;
+	padding-left: 2em;
+}
+
+#header h1
+{
+	position: absolute;
+	top: 1.8em;
+	font-size: 2.2em;
+	letter-spacing: -0.05em;
+}
+
+#header h1 a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+#header h2
+{
+	position: absolute;
+	font-size: 0.8em;
+	top: 8em;
+	color: #E0E8EF;
+}
+/* Login */
+#access{
+	position: absolute;
+	top: 1em;
+	right: 3em;	
+}
+
+/* Menu */
+
+#menu
+{
+	position: absolute;
+	top: 8em;
+	right: 3em;
+}
+
+#menu ul
+{
+	list-style: none;
+}
+
+#menu li
+{
+	display: inline;
+	padding-left: 1.1em;
+	margin-left: 1em;
+	border-left: dotted 1px #E0E8EF;
+}
+
+#menu li.first
+{
+	border: 0em;
+	margin-left: 0em;
+	padding-left: 0em;
+}
+
+#menu li a
+{
+	color: #fff;
+	padding: 0.1em;
+	text-decoration: none;
+}
+
+#menu li a:hover
+{
+	text-decoration: underline;
+}
+
+/* Content */
+
+#content
+{
+	line-height: 1.5em;
+}
+
+
+#content p
+{
+	margin-bottom: 1.5em;
+}
+
+#content h2,h3,h4,h5,h6
+{
+	color: #545454;
+	margin-bottom: .1em;
+	border-bottom: dashed 1px #dfdfdf;
+	padding-bottom: 0.3em;
+}
+
+#content h2
+{
+	font-size: 1.5em;
+}
+
+#content h3
+{
+	font-size: 1.1em;
+}
+
+#content ul
+{
+	margin-bottom: 1.5em;
+	padding-left: 1em;
+	list-style: square;
+}
+
+#content blockquote
+{
+	margin-bottom: 1.5em;
+	padding: 0.75em 0.75em 0.75em 1.5em;
+	border-left: solid 0.75em #005082;
+	background: #FDFDFD url('../images/a7.gif') top left repeat-x;
+}
+
+#content blockquote p
+{
+	margin-bottom: 0em;
+}
+
+#content table
+{
+	margin-bottom: 1.5em;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+#content table th
+{
+	font-weight: bold;
+	padding: 0.5em;
+}
+
+#content table td
+{
+	padding: 0.5em;
+	border-right: solid 1px #fff;
+}
+
+#content table tr.rowH
+{
+	color: #fff;
+	background: #006192 url('../images/a8.gif') top left repeat-x;
+	border-right: solid 1px #fff;
+}
+
+#content table tr.rowA,tr.odd
+{
+	background: #F8F8F8 url('../images/a6.gif') top left repeat-x;
+	border-top: solid 1px #fff;
+	color: inherit;
+}
+
+#content table tr.rowB,tr.even
+{
+	background: #FDFDFD url('../images/a7.gif') top left repeat-x;
+	border-top: solid 1px #fff;
+	color: inherit;
+}
+
+/* Primary Content */
+
+#primaryContentContainer
+{
+	background-color: #fff;
+	float: right;
+	margin: 0em -19em 0em -19em;
+	width: 100%;
+}
+
+#primaryContent
+{
+	margin: 1.5em 19em 0em 17.25em;
+	padding: 1.5em 3em 1.5em 3em;
+}
+
+/* Secondary Content */
+
+#secondaryContent
+{
+	position: relative;
+	float: left;
+	width: 10em;
+	padding: 3em 2em 1.5em 2em;
+	background: #fff url('../images/a1.gif') top right repeat-y;
+}
+
+#secondaryContent .xbg
+{
+	position: absolute;
+	right: 0em;
+	bottom: -64px;
+	background: #fff url('../images/a3.gif') top right no-repeat;
+	height: 64px;
+	width: 128px;
+}
+
+/* Tertiary Content */
+
+#tertiaryContent
+{
+	position: relative;
+	float: right;
+	width: 20  em;
+	padding: 3em 2em 1.5em 2em;
+	background: #fff url('../images/a2.gif') top left repeat-y;
+}
+
+#tertiaryContent .xbg
+{
+	position: absolute;
+	left: 0em;
+	bottom: -64px;
+	background: #fff url('../images/a4.gif') top left no-repeat;
+	height: 64px;
+	width: 128px;
+}
+
+/* Footer */
+
+#footer
+{
+	position: relative;
+	z-index: 1;
+	border-top: dashed 1px #dfdfdf;
+	padding: 1em 0em 2em 0em;
+	margin: 1em 2em 0em 2em;
+	text-align: center;
+}
+
+.clear
+{
+	clear: both;
+}
+
+/* PAGINATION */
+.pagination {
+	border-top: 0;
+	margin: 0;
+	padding: 0.3em 0.2em;
+	text-align: center;
+	-moz-box-shadow: 0 0 3px 1px #AAAAAA;
+	-webkit-box-shadow: 0 0 3px 1px #AAAAAA;
+	box-shadow: 0 0 3px 1px #AAAAAA;
+	background-color: #EFEFEF;
+}
+
+.pagination a,.pagination .currentStep {
+	color: #666666;
+	display: inline-block;
+	margin: 0 0.1em;
+	padding: 0.25em 0.7em;
+	text-decoration: none;
+	-moz-border-radius: 0.3em;
+	-webkit-border-radius: 0.3em;
+	border-radius: 0.3em;
+}
+
+.pagination a:hover,.pagination a:focus,.pagination .currentStep {
+	background-color: #999999;
+	color: #ffffff;
+	outline: none;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.no-borderradius .pagination a:hover,.no-borderradius .pagination a:focus,.no-borderradius .pagination .currentStep
+	{
+	background-color: transparent;
+	color: #444444;
+	text-decoration: underline;
+}
+
+/* MESSAGES AND ERRORS */
+.errors,.message {
+	font-size: 0.8em;
+	line-height: 2;
+	margin: 1em 2em;
+	padding: 0.25em;
+}
+
+.message {
+	background: #f3f3ff;
+	border: 1px solid #b2d1ff;
+	color: #006dba;
+	-moz-box-shadow: 0 0 0.25em #b2d1ff;
+	-webkit-box-shadow: 0 0 0.25em #b2d1ff;
+	box-shadow: 0 0 0.25em #b2d1ff;
+}
+
+.errors {
+	background: #fff3f3;
+	border: 1px solid #ffaaaa;
+	color: #cc0000;
+	-moz-box-shadow: 0 0 0.25em #ff8888;
+	-webkit-box-shadow: 0 0 0.25em #ff8888;
+	box-shadow: 0 0 0.25em #ff8888;
+}
+
+.errors ul,.message {
+	padding: 0;
+}
+
+.errors li {
+	list-style: none;
+	background: transparent url(../images/skin/exclamation.png) 0.5em 50%
+		no-repeat;
+	text-indent: 2.2em;
+}
+
+.message {
+	background: transparent url(../images/skin/information.png) 0.5em 50%
+		no-repeat;
+	text-indent: 2.2em;
+}
+
+/* Calendar Styling */
+	.calendar{
+		width:55em;
+		height: 45em;
+	}
+	.calendarBody{
+		width:99.7%;
+		height:96%;
+	}
+	.calendarHead{
+		width:99.7%;
+		height:3%;
+	}
+	
+	.calendarRow{
+		width:99.7%;
+		height:16%;
+	}
+	.calendarCell{
+		width:13.83%;
+		height:99.7%;
+		border: .1em;
+		border-style: solid;
+		float:left;
+	}
+	.calendarCellHeader{
+		height:20%;
+		background-color:#66A0BE;
+	}
+	.calendarHeadCell{
+		width:13.7%;
+		height:99.7%;
+		background-color:#006192;
+		color:#FFFFFF;
+		float:left;
+		padding:.1em;
+	}

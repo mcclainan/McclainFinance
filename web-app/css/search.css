@@ -1,0 +1,18 @@
+#invalidField{
+	background: #fff3f3;
+	border-color: #ffaaaa;
+	color: #cc0000;
+}
+
+.searchDiv{
+	width: 75%; 
+	margin-top: 25px;
+	border-style: outset;
+	padding: 10px;
+	margin-bottom: 25px;
+	border-width: 10px
+}
+
+.invisible{
+	visibility : collapse;
+}`

@@ -1,0 +1,14 @@
+3 Feb 2013:
+
+attempted to add transaction as follows:
+Date= 31 Jan 2013
+Category= Groceries
+Name= Walmart Purchases
+Amount = 14.49
+Notes= null
+Account= EBT
+
+Got the following error
+ORA-00001: unique constraint (MAC_FINANCIAL_ADMIN.SYS_C0020064) violated
+
+The same happened when trying to do a combo transaction on 31 Jan 2013 so I think it has to be a mix up with the date
